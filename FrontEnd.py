@@ -17,7 +17,7 @@ import pickle
 @st.cache_resource
 def charger_model_et_scaler():
     model = pickle.load(open("classification_model.pkl", "rb"))
-    scaler = pickle.load(open("scaler_2.pkl", "rb"))
+    scaler = pickle.load(open("C:/Users/diouf/OneDrive/Bureau/ds2/scaler.pkl", "rb"))
     return model, scaler
 
 #rappel du modele
